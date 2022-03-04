@@ -3,8 +3,12 @@
 /* font-family: 'EB Garamond', serif;*/
 body {
     font-family: 'Open Sans', sans-serif;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
 }
 
 header {
@@ -67,4 +71,8 @@ header {
 
 .mtitle {
     text-align: center;
+}
+
+.desc {
+    font-style: italic;
 }
