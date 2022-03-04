@@ -61,4 +61,10 @@ header {
 
 #menu {
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mtitle {
+    text-align: center;
 }
