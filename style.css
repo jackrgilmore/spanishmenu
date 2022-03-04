@@ -21,6 +21,23 @@ header {
     display: flex;
     padding: 0;
 }
+
+.viewmore {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border: white solid;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 1em;
+    padding: 10px 10px;
+}
+
+.viewmore:hover {
+    color: black;
+    cursor: pointer;
+    background: white;
+}
+
 .black {
     background-color: rgba(0, 0, 0, .5);
     width: 100vw;
@@ -42,6 +59,6 @@ header {
     margin: 0;
 }
 
-.menu {
+#menu {
     margin: 50px;
 }
